@@ -22,7 +22,7 @@ If you are having trouble using Zeus, would like to contribute to the project, o
 - Fully open source (APGLv3)
 - Lightning accounts
 - On-chain accounts
-- Easy to use activity menu
+- Easy-to-use activity menu
 - NFC payments and requests
 - PIN or passphrase encryption
 - Privacy mode - hide your sensitive data
@@ -66,9 +66,9 @@ If you are having trouble using Zeus, would like to contribute to the project, o
 
 ## Who is Zeus for?
 
-In order to be able to use Zeus, is required to have a running Lightning node. Nevertheless it can be used without your own node, if you configure it to use lndhub accounts from other nodes (LNbits, lntxbot, various lndhub servers).
+In order to be able to use Zeus, is required to have a running Lightning node. Nevertheless, it can be used without your own node, if you configure it to use lndhub accounts from other nodes (LNbits, lntxbot, various lndhub servers).
 
-Currently Zeus is for people running [Lightning Network Daemon (LND)](https://lightning.engineering/), [Eclair](https://acinq.co/) or [Core lightning](https://blockstream.com/lightning/) (REST or Spark API) lightning nodes.
+Currently, Zeus is for people running [Lightning Network Daemon (LND)](https://lightning.engineering/), [Eclair](https://acinq.co/) or [Core lightning](https://blockstream.com/lightning/) (REST or Spark API) lightning nodes.
 
 Merchants using [BTCPay](https://btcpayserver.org/) or [LNBits](https://lnbits.com/) or [LNtxBot](https://lntxbot.com) can also connect to, use, and manage their nodes from Zeus. Users of [LNDHub](https://bluewallet.io/lndhub/) and [Nayuta Core](https://nayuta.co/core/) can also connect to and use Zeus.
 
@@ -76,4 +76,4 @@ Coming in 2022 Zeus will start catering to average users who just want a simple 
 
 ## Supporters
 
-To see our supporters, or become one yourself, check out our about page on our [official website](https://zeusln.app/about). You can also contribute and support to Zeus in [many other ways](/contribute/how-you-can-contribute).
+To see our supporters, or become one yourself, check out our about page on our [official website](https://zeusln.app/about). You can also support and contribute to Zeus in [many other ways](/contribute/how-you-can-contribute).

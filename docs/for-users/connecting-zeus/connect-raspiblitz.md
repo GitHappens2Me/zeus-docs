@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 RaspiBlitz supports CLN and LND implementations. You can also activate clearnet access from its interface, after you will have to do some precise steps.
 Another new type of connection is through LNC (Lightning Node Connect), a kind of private encrypted connection, using the Lightning Terminal. [See more details about LNC here](https://docs.lightning.engineering/lightning-network-tools/lightning-terminal/lightning-node-connect).
 
-Being quite similar in construction (RaspiBlitz and RaspiBolt), [here are the instructions to connect a RaspiBolt](https://raspibolt.org/guide/lightning/mobile-app.html) platfom node to your Zeus.
+Being quite similar in construction (RaspiBlitz and RaspiBolt), [here are the instructions to connect a RaspiBolt](https://raspibolt.org/guide/lightning/mobile-app.html) platform node to your Zeus.
 
 ### Using Tor or clearnet (domain/IP) network
 
@@ -19,7 +19,7 @@ Being quite similar in construction (RaspiBlitz and RaspiBolt), [here are the in
 3. Scroll down and press **SCAN LN node QR**.
 4. Go to Raspiblitz dashboard, **Connect menu/ Mobile – Connect Mobile wallet / Zeus Android/ Continue/**
 5. Scan the QR Code.
-6. Enable **Use Tor** only if you Raspiblitz is running only on Tor network.
+6. Enable **Use Tor** only if your Raspiblitz is running only on Tor network.
 7. Click on **SAVE NODE CONFIG**.
 8. Zeus is now connected to your Raspiblitz and you can use it manage your node and make payments.
 
@@ -32,7 +32,7 @@ Being quite similar in construction (RaspiBlitz and RaspiBolt), [here are the in
 5. Click on **Node interface** and select **LNC (Lightning Node Connect)** as your implementation.
 6. Press **Scan QR from Lightning Terminal** and scan the QR presented to you after step 3
 7. Click on **SAVE NODE CONFIG**.
-8. Zeus is now connected to your RaspiBlitz and you can use it manage your node and make payments.
+8. Zeus is now connected to your RaspiBlitz and you can use it to manage your node and make payments.
 
 ### Using Tailscale network
 
@@ -42,17 +42,17 @@ Tailscale is zero config VPN that creates a secure private network between your 
 
 Even when separated by firewalls or subnets, Tailscale just works. Tailscale will assign to your RaspiBlitz node machine a stable private IP and an auto-assigned domain that stays consistent, no matter what network your RaspiBlitz machine is connected to. It’s like a local network that works everywhere. Tailscale builds on top of WireGuard Noise protocol encryption, a peer-reviewed and trusted standard.
 
-The connection through Tailscale will be much faster and stable than Tor, encrypted and safe.
+The connection through Tailscale will be much faster and more stable than Tor, encrypted and safe.
 
 1. Go to [Tailscale.com](https://tailscale.com) and create an account. No need to use real identity.
-2. Install Tailscale app in RaspiBlitz and login with that Tailscale account you just created. In your Tailscale account you would see all your devices connected and each one will have a dedicated private IP.
-3. Install Tailscale in your mobile device and login with that same created account. Immediately you will see in the app the IP of your node. Will be a private IP, not a public one. Copy it.
+2. Install the Tailscale app on your RaspiBlitz and log in with that Tailscale account you just created. In your Tailscale account you would see all your devices connected and each one will have a dedicated private IP.
+3. Install the Tailscale on your mobile device and log in with that same created account. Immediately you will see in the app the IP of your node. Will be a private IP, not a public one. Copy it.
 4. Open Zeus and go to **Settings -> Connect a node -> +**.
 5. Click on **Node interface** and select **LND** or **C-lightning REST**(depending on which LN implementation you run your node).
 6. Scroll down and press **SCAN LN node QR**.
 7. Go to Raspiblitz dashboard, **Connect menu/ Mobile – Connect Mobile wallet / Zeus Android/ Continue/**
 8. Scan the QR Code.
 9. Before hit save config, remove the **Use Tor** option and replace all the onion address with that Tailscale IP of your node (see point 2).
-10. Click on **SAVE NODE CONFIG** and you will connect in few moments. Zeus is now connected to your RaspiBlitz and you can use it manage your node and make payments.
+10. Click on **SAVE NODE CONFIG** and you will connect in a few moments. Zeus is now connected to your RaspiBlitz and you can use it to manage your node and make payments.
 
 Optional: if you do not want to use Tailscale, the alternative is [ZeroTier.com](https://zerotier.com) (works the same as Tailscale) or [WireGuard](https://wireguard.com) (more advanced).

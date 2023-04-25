@@ -36,7 +36,7 @@ Step 7: Select order. Click the appropriate order. Confirm details. Hit “Pay�
 <img src={pos2} style={{width: 400}} />
 <img src={pos3} style={{width: 400}} />
 
-Step 8: Display QR code. Show patron the QR code. If there are issues, it is likely on there end, so some patience might be required while they iterate. If issues persist, scroll to the bottom of the screen, and ask the patron whether they want to pay with “Lightning” or “On-chain.” Depending on their answer, select one of the options at the very bottom of the screen and a new QR code will appear.
+Step 8: Display QR code. Show patron the QR code. If there are issues, it is likely on their end, so some patience might be required while they iterate. If issues persist, scroll to the bottom of the screen, and ask the patron whether they want to pay with “Lightning” or “On-chain.” Depending on their answer, select one of the options at the very bottom of the screen and a new QR code will appear.
 
 ![POS screenshot 4](../../static/img/pos/pos-4.png)
 
